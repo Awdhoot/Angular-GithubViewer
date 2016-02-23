@@ -8,15 +8,15 @@
 
     $routeProvider
         .when("/main", {
-        templateUrl : "main.html",
+        templateUrl : "../src/main.html",
         controller : "MainController" //optional, if already specified as ng-controller
         })
         .when("/user/:username",{
-            templateUrl : "user.html",
+            templateUrl : "../src/user.html",
             controller : "UserController"
         })
         .when("/repo/:username/:reponame",{
-            templateUrl : "repo.html",
+            templateUrl : "../src/repo.html",
             controller : "RepoController"
         })
 
